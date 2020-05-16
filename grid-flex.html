@@ -10,16 +10,18 @@
                 color: white;
                 font-size: medium;
             }
-            container{
+            .container{
                 display: grid;
                 width: 80vw;
                 margin: auto;
                 grid-template-columns: 35vw 35vw;
                 grid-template-rows: 45vh 45vh;
                 grid-gap: 25px;
-                grid-template-areas: "top top"
+                grid-template-areas: 
+                "top top"
                 "bottomLeft bottomRight";
                 border: 2px solid rgb(247, 182, 96);
+                justify-content: center;
             }
             .box{
                 display: flex;
@@ -27,26 +29,34 @@
                 justify-content: center;
                 border: 1px solid red;
                 padding: 15px;
+                margin-bottom: 10px;
+            }
+            .page{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 15px;
+                background-color: grey;
+                margin-bottom: 10px;
             }
             #one{
-                order: 1;
+                grid-area: top;
             }
             #two{
-                order: 2;
+                grid-area: bottomLeft;
             }
             #three{
-                order: 3;
+                grid-area: bottomRight;
             }
         </style>
     </head>
     <body>
         <header>
-            <div>
-                <button></button>
+            <div class="page">
+                <button>SingUp</button>
             </div>
         </header>
-    <container>
-        <div>
+        <div class="container">
             <div class="box" id="one">Box1</div>
             <div class="box" id="two">Box2</div>
             <div class="box" id="three">Box3</div>
