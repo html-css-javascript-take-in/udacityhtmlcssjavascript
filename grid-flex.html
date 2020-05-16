@@ -3,18 +3,54 @@
     <head>
         <meta charset="utf-8">
         <title>Using Grid and Flex!!</title>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="view">
         <style>
             body{
                 background-color: grey;
                 color: white;
                 font-size: medium;
             }
-            .contaoner{
+            container{
                 display: grid;
+                width: 80vw;
+                margin: auto;
+                grid-template-columns: 35vw 35vw;
+                grid-template-rows: 45vh 45vh;
+                grid-gap: 25px;
+                grid-template-areas: "top top"
+                "bottomLeft bottomRight";
+                border: 2px solid rgb(247, 182, 96);
+            }
+            .box{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid red;
+                padding: 15px;
+            }
+            #one{
+                order: 1;
+            }
+            #two{
+                order: 2;
+            }
+            #three{
+                order: 3;
             }
         </style>
     </head>
     <body>
-        
+        <header>
+            <div>
+                <button></button>
+            </div>
+        </header>
+    <container>
+        <div>
+            <div class="box" id="one">Box1</div>
+            <div class="box" id="two">Box2</div>
+            <div class="box" id="three">Box3</div>
+        </div>
+    </container>
     </body>
 </html>
