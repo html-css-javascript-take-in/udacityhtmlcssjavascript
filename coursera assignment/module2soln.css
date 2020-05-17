@@ -43,6 +43,8 @@
     border-bottom: solid black;
   
     padding-left: 40px;
+
+    text-align: right;
   
     padding-right: 40px;
   
@@ -106,7 +108,7 @@
   
   {
   
-    p1{
+    context{
   
     width: 30%;
   
@@ -120,19 +122,19 @@
   
   {
   
-  div{
+    div{
   
-  width : 45%;
+    width : 45%;
   
-  float: left;
+    float: left;
   
-  }
+    }
   
-  #box3{
+    #box3{
   
-  width: 92%;
+    width: 92%;
   
-  }
+    }
   
   }
   
@@ -140,28 +142,22 @@
   
   {
   
-  #box1
+    #box1{
   
-  {
+    width:100%;
   
-  width:100%;
+    }
   
-  }
+    #box2{
   
-  #box2
+    width: 100%;
   
-  {
+    }
   
-  width: 100%;
+    #box3{
   
-  }
+    width: 100%;
   
-  #box3
-  
-  {
-  
-  width: 100%;
-  
-  }
+    }
   
   }
