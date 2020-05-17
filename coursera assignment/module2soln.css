@@ -8,19 +8,19 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  p1{
+  context{
   
-  margin :10px;
+    margin :10px;
   
-  width : 31%;
+    width : 31%;
   
-  background-color: gray;
+    background-color: gray;
   
-  border: solid black;
+    border: solid black;
   
-  float: left;
+    float: left;
   
-  padding-left: 10px;
+    padding-left: 10px;
   
   }
   
@@ -28,23 +28,23 @@
   
   {
   
-  text-align: right;
+    text-align: right;
   
-  margin: 0;
+    margin: 0;
   
   }
   
   #h1 span{
   
-  background-color: #ec8bab;
+    background-color: #ec8bab;
   
-  border-left:solid black;
+    border-left:solid black;
   
-  border-bottom: solid black;
+    border-bottom: solid black;
   
-  padding-left: 40px;
+    padding-left: 40px;
   
-  padding-right: 40px;
+    padding-right: 40px;
   
   }
   
@@ -52,9 +52,9 @@
   
   {
   
-  text-align: right;
+    text-align: right;
   
-  margin: 0;
+    margin: 0;
   
   }
   
@@ -62,17 +62,17 @@
   
   {
   
-  background-color: rgb(184, 68, 48);
+    background-color: rgb(184, 68, 48);
   
-  border-left:solid black;
+    border-left:solid black;
 
-  color: white;
+    color: white;
   
-  border-bottom: solid black;
+    border-bottom: solid black;
   
-  padding-left: 40px;
+    padding-left: 40px;
   
-  padding-right: 40px;
+    padding-right: 40px;
   
   }
   
@@ -80,9 +80,9 @@
   
   {
   
-  text-align: right;
+    text-align: right;
   
-  margin: 0;
+    margin: 0;
   
   }
   
@@ -90,15 +90,15 @@
   
   {
   
-  background-color: #e0e088;
+    background-color: #e0e088;
   
-  border-left:solid black;
+    border-left:solid black;
   
-  border-bottom: solid black;
+    border-bottom: solid black;
   
-  padding-left: 40px;
+    padding-left: 40px;
   
-  padding-right: 40px;
+    padding-right: 40px;
   
   }
   
@@ -106,13 +106,13 @@
   
   {
   
-  p1{
+    p1{
   
-  width: 30%;
+    width: 30%;
   
-  float : left;
+    float : left;
   
-  }
+    }
   
   }
   
@@ -120,7 +120,7 @@
   
   {
   
-  p1{
+  div{
   
   width : 45%;
   
