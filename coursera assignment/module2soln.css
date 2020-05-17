@@ -3,6 +3,10 @@
   box-sizing: border-box;
   
   }
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
   
   p1{
   
@@ -10,7 +14,7 @@
   
   width : 31%;
   
-  background-color: Blue;
+  background-color: gray;
   
   border: solid black;
   
@@ -32,7 +36,7 @@
   
   #h1 span{
   
-  background-color: tomato;
+  background-color: #ec8bab;
   
   border-left:solid black;
   
@@ -58,9 +62,11 @@
   
   {
   
-  background-color: green;
+  background-color: rgb(184, 68, 48);
   
   border-left:solid black;
+
+  color: white;
   
   border-bottom: solid black;
   
@@ -84,7 +90,7 @@
   
   {
   
-  background-color: Red;
+  background-color: #e0e088;
   
   border-left:solid black;
   
